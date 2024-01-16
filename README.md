@@ -55,6 +55,8 @@ Use in your .css file:
 
 ## Logo
 ### Default
+<img src="https://github.com/tochiResources/assets-web/assets/34287213/857f1d7c-5c84-4b8e-bc98-76f7ae406be2" alt="tochiResources logo" width="150px">
+
 Import directly via HTML document **(recommended)**:
 ```html
 <img class="tr-logo" src="logo/SVG/logo.svg" alt="tochiResources logo" />
@@ -63,11 +65,13 @@ Import directly via HTML document **(recommended)**:
 CSS
 ```css
 .tr-logo {
-    width: 70px;
+    width: 100px;
 }
 ```
 
 ### Icon
+<img src="https://github.com/tochiResources/assets-web/assets/34287213/1b124b5f-8a70-40c0-b423-9fd4a8d128e1" alt="tochiResources logo" width="70px">
+
 Import directly via HTML document as an icon in the `<head>` tag:
 ```html
 <link rel="icon" href="logo/favicon/favicon.ico" />
