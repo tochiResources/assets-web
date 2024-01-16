@@ -1,0 +1,22 @@
+{
+  "name": "@tochiresources/assets-web",
+  "version": "1.0.0",
+  "description": "Assets used in tochiResources web technology apps",
+  "main": "index.js",
+  "homepage": "https://github.com/tochiResources/assets-web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tochiResources/assets-web.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "library",
+    "assets"
+  ],
+  "author": "tochi (https://github.com/T0chi)",
+  "license": "GPL-3.0"
+}

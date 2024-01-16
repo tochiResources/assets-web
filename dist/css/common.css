@@ -1,0 +1,33 @@
+@import url('./fonts.css');
+
+:root {
+	--main-color: #4388CD;
+	--accent-color: #6495C6;
+	--secondary-color: #7E7E7E;
+
+	--element0-color: #fff;
+	--element1-color: #1f2021;
+	--element2-color: #253136;
+	--element3-color: #272E31;
+	--element4-color: #393E41;
+	--element5-color: #3D484C;
+
+	--button-bg-color: #2A2C2D;
+	--button-txt-color: #2A2C2D;
+
+	--notification-standard-color: rgb(82, 112, 124);
+	--notification-success-color: rgb(100, 183, 132);
+	--notification-warning-color: rgb(124, 82, 82);
+
+	--bg1-color: #131313;
+	--bg2-color: #1B1B1B;
+	--footer-color: rgba(19, 19, 19, 1);
+
+	--text-color: #fff;
+	--text-header-color: var(--main-color);
+	--text-accent-color: #8B8B8B;
+	--text-link-color: #91BEEA;
+	--text-link-visited-color: #4B75A7;
+	--text-link-hover-color: var(--main-color);
+	--text-link-active-color: ##54A4F5;
+}
