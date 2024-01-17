@@ -26,13 +26,13 @@ These are the main colors:
 - ![#4388CD](https://placehold.co/15x15/4388CD/4388CD.png) `#4388CD`
 
 ## CSS
-Insert directly in your HTML document before a specific `<link>` tag inside the `<head>` tag via JavaScript `(Browsers only)` **(recommended)**:
+`(Browsers only)` Insert directly in your HTML document before a specific `<link>` tag inside the `<head>` tag via JavaScript **(recommended)**:
 > Inserts before the first `<link>` tag that has a `href` value of `css/style.css`
 ```js
 assetsWeb.CSS.insert("css/style.css");
 ```
 
-Import directly in your HTML document as the last element in the `<head>` tag via JavaScript `(Browsers only)`:
+`(Browsers only)` Import directly in your HTML document as the last element in the `<head>` tag via JavaScript:
 ```js
 assetsWeb.CSS.add();
 ```
@@ -106,7 +106,7 @@ Import directly via HTML document **(recommended)**:
 <img class="tr-logo" src="logo/SVG/logo.svg" alt="tochiResources logo" />
 ```
 
-Insert directly in your HTML document before a specific `Element` via JavaScript `(Browsers only)`
+`(Browsers only)` Insert directly in your HTML document before a specific `Element` via JavaScript:
 ```js
 assetsWeb.Logo.insert(element);
 // or
@@ -129,7 +129,7 @@ Import directly via HTML document as an icon in the `<head>` tag:
 <link rel="apple-touch-icon" href="logo/favicon/apple-touch-icon.png" />
 ```
 
-Insert directly in your HTML document before a specific `Element` via JavaScript `(Browsers only)`
+`(Browsers only)` Insert directly in your HTML document before a specific `Element` via JavaScript:
 ```js
 assetsWeb.Logo.insert(element, "icon");
 // or
