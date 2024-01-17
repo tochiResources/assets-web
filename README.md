@@ -24,6 +24,8 @@ const assetsWeb = require('@tochiresources/assets-web');
 These are the main colors:
 - ![#fff](https://placehold.co/15x15/fff/fff.png) `#fff`
 - ![#4388CD](https://placehold.co/15x15/4388CD/4388CD.png) `#4388CD`
+- ![#2A2C2D](https://placehold.co/15x15/2A2C2D/2A2C2D.png) `#2A2C2D`
+- ![#131313](https://placehold.co/15x15/131313/131313.png) `#131313`
 
 ## CSS
 `(Browsers only)` Insert directly in your HTML document before a specific `<link>` tag inside the `<head>` tag via JavaScript **(recommended)**:
