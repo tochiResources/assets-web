@@ -1,6 +1,6 @@
 {
   "name": "@tochiresources/assets-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Assets used in tochiResources web technology apps",
   "main": "index.js",
   "homepage": "https://github.com/tochiResources/assets-web",
