@@ -4,7 +4,9 @@ Assets used in tochiResources web technology apps.
 1. Download tochiResources assets from the [latest releases](https://github.com/@tochiresources/assets-web/releases/latest).
 2. Unzip in your root folder.
 
-Also install with `npm` if you wish to use the API:
+**Download the code instead to use the API** until https://github.com/tochiResources/assets-web/issues/1 is fixed.
+
+~~Also install with `npm` if you wish to use the API:~~
 
 ```js
 npm i @tochiresources/assets-web
