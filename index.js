@@ -3,8 +3,7 @@ const Logo = require('./src/Classes/Logo');
 const SFX = require('./src/Classes/SFX');
 const Cursors = require('@tochiresources/cursors');
 
-const compile = require('./src/compile');
-compile();
+try { require('./src/compile')(); } catch (e) {}
 
 module.exports = {
     CSS: CSS,
