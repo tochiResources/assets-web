@@ -6,10 +6,8 @@
   "homepage": "https://github.com/tochiResources/assets-web",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tochiResources/assets-web.git"
+    "url": "git+https://github.com/tochiResources/assets-web.git"
   },
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +16,15 @@
     "assets"
   ],
   "author": "tochi (https://github.com/T0chi)",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tochiResources/assets-web/issues"
+  },
+  "devDependencies": {
+    "zip-dir": "^2.0.0"
+  },
+  "dependencies": {
+    "@tochiresources/cursors": "^1.0.0",
+    "sound-play": "^1.1.0"
+  }
 }

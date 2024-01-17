@@ -1,7 +1,7 @@
 Assets used in tochiResources web technology apps.
 
 ## Install
-1. Download tochiResources assets pack from [here](https://github.com/@tochiresources/assets-web/releases/latest).
+1. Download tochiResources assets from the [latest releases](https://github.com/@tochiresources/assets-web/releases/latest).
 2. Unzip in your root folder.
 
 Also install with `npm` if you wish to use the API:
@@ -15,24 +15,31 @@ const assetsWeb = require('@tochiresources/assets-web');
 
 ## Assets
 - css
-- fonts
 - logo
+- cursors
+- fonts
+- sfx
+
+## Colors
+These are the main colors:
+- ![#fff](https://placehold.co/15x15/fff/fff.png) `#fff`
+- ![#4388CD](https://placehold.co/15x15/4388CD/4388CD.png) `#4388CD`
 
 ## CSS
 Insert directly in your HTML document before a specific `<link>` tag inside the `<head>` tag via JavaScript `(Browsers only)` **(recommended)**:
 > Inserts before the first `<link>` tag that has a `href` value of `css/style.css`
 ```js
-assetsWeb.CSS.Insert('css/style.css');
+assetsWeb.CSS.insert("css/style.css");
 ```
 
 Import directly in your HTML document as the last element in the `<head>` tag via JavaScript `(Browsers only)`:
 ```js
-assetsWeb.CSS.Add();
+assetsWeb.CSS.add();
 ```
 
 Import directly via .css file:
 ```css
-@import url(./common.css);
+@import url("common.css");
 ```
 
 Import directly via HTML document:
@@ -40,11 +47,48 @@ Import directly via HTML document:
 <link rel="stylesheet" href="css/common.css">
 ```
 
+### `:root` variables
+	--main-color: #4388CD;
+	--accent-color: #6495C6;
+	--secondary-color: #8B8B8B;
+
+	--element0-color: #fff;
+	--element1-color: #1f2021;
+	--element2-color: #253136;
+	--element3-color: #272E31;
+	--element4-color: #393E41;
+	--element5-color: #3D484C;
+
+	--button-bg-color: #2A2C2D;
+
+	--notification-standard-color: rgb(82, 112, 124);
+	--notification-standard-border-color: rgb(123, 194, 222);
+
+	--notification-success-color: rgb(82, 124, 82);
+	--notification-success-border-color: rgb(123, 222, 123);
+
+	--notification-warning-color: rgb(124, 82, 82);
+	--notification-warning-border-color: rgb(222, 123, 123);
+
+	--bg1-color: #131313;
+	--bg2-color: #1B1B1B;
+	--footer-color: rgba(19, 19, 19, 1);
+
+	--text-color: #fff;
+	--text-header-color: var(--main-color);
+	--text-accent-color: #8B8B8B;
+	--text-link-color: #91BEEA;
+	--text-link-visited-color: #4B75A7;
+	--text-link-hover-color: var(--main-color);
+	--text-link-active-color: ##54A4F5;
+
 ## Fonts
 Fonts are included when importing the css.
 
 ### Default
-`'Montserrat', sans-serif`
+```css
+'Montserrat', sans-serif
+```
 
 Use in your .css file:
 ```css
@@ -62,6 +106,13 @@ Import directly via HTML document **(recommended)**:
 <img class="tr-logo" src="logo/SVG/logo.svg" alt="tochiResources logo" />
 ```
 
+Insert directly in your HTML document before a specific `Element` via JavaScript `(Browsers only)`
+```js
+assetsWeb.Logo.insert(element);
+// or
+assetsWeb.Logo.insert("element-id");
+```
+
 CSS
 ```css
 .tr-logo {
@@ -76,6 +127,13 @@ Import directly via HTML document as an icon in the `<head>` tag:
 ```html
 <link rel="icon" href="logo/favicon/favicon.ico" />
 <link rel="apple-touch-icon" href="logo/favicon/apple-touch-icon.png" />
+```
+
+Insert directly in your HTML document before a specific `Element` via JavaScript `(Browsers only)`
+```js
+assetsWeb.Logo.insert(element, "icon");
+// or
+assetsWeb.Logo.insert("element-id", "icon");
 ```
 
 Import directly via HTML document as `<img>`:
@@ -103,5 +161,19 @@ CSS
 }
 ```
 
-# Notes
-The urls are offline for now and therefore needs to be checked/adjusted to your project folder structure
+## Cursors
+API docs can be found [here](https://www.npmjs.com/package/@tochiresources/cursors).
+![tochiResources cursros overview](https://github.com/tochiResources/cursors/assets/34287213/a4bd4efa-a946-4f0b-8764-f85f6cf4e3fb)
+
+## SFX
+Audio should work in NodeJs as well thanks to [sound-play](https://www.npmjs.com/package/sound-play).
+```js
+assetsWeb.SFX.click_1();
+assetsWeb.SFX.error_1();
+assetsWeb.SFX.msg();
+assetsWeb.SFX.success();
+```
+
+
+## Notes
+The urls are offline for now and therefore may need to be checked/adjusted to your project folder structure.
