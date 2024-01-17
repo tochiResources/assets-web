@@ -1,7 +1,7 @@
 Assets used in tochiResources web technology apps.
 
 ## Install
-1. Download tochiResources assets from the [latest releases](https://github.com/@tochiresources/assets-web/releases/latest).
+1. Download tochiResources assets from the [latest releases](https://github.com/tochiResources/assets-web/releases/latest).
 2. Unzip in your root folder.
 
 **Download the code manually instead to use the API** until https://github.com/tochiResources/assets-web/issues/1 is fixed and then read the instructions below to `require` it from `node_modules` like a normal package:
