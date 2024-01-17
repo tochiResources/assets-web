@@ -28,6 +28,6 @@
     "sound-play": "^1.1.0"
   },
   "publishConfig": {
-    "@T0chi:registry": "https://npm.pkg.github.com"
+    "@tochiResources:registry": "https://npm.pkg.github.com"
   }
 }
