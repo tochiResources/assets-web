@@ -26,5 +26,8 @@
   "dependencies": {
     "@tochiresources/cursors": "^1.0.0",
     "sound-play": "^1.1.0"
+  },
+  "publishConfig": {
+    "@T0chi:registry": "https://npm.pkg.github.com"
   }
 }
