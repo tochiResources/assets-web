@@ -107,7 +107,7 @@ Use in your .css file:
 ### Default
 <img src="https://github.com/tochiResources/assets-web/assets/34287213/857f1d7c-5c84-4b8e-bc98-76f7ae406be2" alt="tochiResources logo" width="150px">
 
-Import directly via HTML document **(recommended)**:
+Import directly via HTML document as `<img>` **(recommended)**:
 ```html
 <img class="tr-logo" src="logo/SVG/logo.svg" alt="tochiResources logo" />
 ```
@@ -129,12 +129,6 @@ CSS
 ### Icon
 <img src="https://github.com/tochiResources/assets-web/assets/34287213/1b124b5f-8a70-40c0-b423-9fd4a8d128e1" alt="tochiResources logo" width="70px">
 
-Import directly via HTML document as an icon in the `<head>` tag:
-```html
-<link rel="icon" href="logo/favicon/favicon.ico" />
-<link rel="apple-touch-icon" href="logo/favicon/apple-touch-icon.png" />
-```
-
 `(Browsers only)` Insert directly in your HTML document before a specific `Element` via JavaScript:
 ```js
 assetsWeb.Logo.insert(element, "icon");
@@ -155,16 +149,10 @@ CSS
 ```
 
 ### Favicon
-Import directly via HTML document:
+Import directly via HTML document as an icon in the `<head>` tag:
 ```html
-<img class="tr-icon" src="logo/SVG/icon.svg" alt="tochiResources icon" />
-```
-
-CSS
-```css
-.tr-icon {
-    width: 25px;
-}
+<link rel="icon" href="logo/favicon/favicon.ico" />
+<link rel="apple-touch-icon" href="logo/favicon/apple-touch-icon.png" />
 ```
 
 ## Cursors
