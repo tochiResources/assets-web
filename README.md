@@ -4,13 +4,15 @@ Assets used in tochiResources web technology apps.
 1. Download tochiResources assets from the [latest releases](https://github.com/@tochiresources/assets-web/releases/latest).
 2. Unzip in your root folder.
 
-**Download the code instead to use the API** until https://github.com/tochiResources/assets-web/issues/1 is fixed.
+**Download the code manually instead to use the API** until https://github.com/tochiResources/assets-web/issues/1 is fixed and then read the instructions below to `require` it from `node_modules` like a normal package:
 
-~~Also install with `npm` if you wish to use the API:~~
+1. Download this repo.
+2. Unpack zip somewhere on your PC.
+3. Open the directory or `index.js` in VS Code or cmd.
+4. Open the Terminal in VS Code (skip this if using cmd).
+5. Write `npm link`.
+6. You can now install the package with `npm link @tochiresources/assets-web` and require it:
 
-```js
-npm i @tochiresources/assets-web
-```
 ```js
 const assetsWeb = require('@tochiresources/assets-web');
 ```
